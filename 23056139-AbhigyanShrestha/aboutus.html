@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Smart Mart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+           background: #eee;
+        }
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5%;
+    background: #fff;
+    box-shadow:0 .2rem 1rem rgba(0,0,0.1);
+}
+.header .navbar a
+{
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    color: black
+}
+.header .navbar a:hover
+{
+  color: purple;  
+}
+.header .icon div
+{
+    height:3rem;
+    width: 3rem;
+    line-height: 3rem;
+    background: #eee;
+    color: black;
+    font-size: 2rem;
+    margin-right: 1.4rem;
+    text-align: center;
+    cursor: pointer;
+}
+.header .icon div:hover
+{
+    background: purple;
+color: white;
+}
+
+        header {
+            background-color:green;
+            color: #ac3535;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 5rem;
+        }
+        h1{
+            color: #ffffff;
+        }
+        h2{
+            color: #0f3057;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .team-members {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .team-member {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+      
+        .team-member img {
+            max-width: 150px;
+            min-width: 150px;
+            height: 200px;
+            border-radius: 10px;   
+            box-shadow: 0 5px 10px gray;       
+        }
+
+        .team-member h3 {
+            margin-bottom: 5px;
+            font-size: 1.2em; 
+        }
+        .team-member p {
+            color: #666;
+            margin-bottom: 10px;
+            font-size: 0.9em; 
+        }
+        /* Feedback Form Styles */
+        form {
+            margin-top: 30px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        #name, #email, #message{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #0f3057;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #083d6b;
+        }
+        .response {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #0f3057;
+            color: #fff;
+        }
+        footer {
+            background-color:green;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="image/logo.jpg " class="logo" width="100" height="100"></a>
+        <nav class="navbar">
+        
+        <a href="Homepaage.html">HOME</a>
+        <a href="product.html">PRODUCT</a>
+        <a href="Blog.html">BLOG</a>
+        <a href="aboutus.html">ABOUT US</a>
+        <a href="research.html">RESEARCH</a>
+    </ul>
+    </nav>
+    <div class="icon">
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div> 
+    </div>
+</header>
+    <header>
+        <h1>About Us</h1>
+    </header>
+    <div class="container">
+        <h2>Our Story</h2>
+        <p>Welcome to SmartMart, where we blend technology with traditional grocery shopping to provide you with a seamless experience. Our journey began with a vision to revolutionize the way Kathmandu shops for groceries.</p>
+        
+        <h2>Our Mission</h2>
+        <p>At SmartMart, our mission is to make grocery shopping convenient, efficient, and enjoyable for everyone in Kathmandu. We strive to offer the freshest produce, highest-quality products, and exceptional customer service.</p>
+        
+        <h2>Meet the Team</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <a href="abhigyan.html">
+                    <img src="image/abhigyan.jpeg" alt="Owner">
+                </a>
+                <h3>Abhigyan Shrestha</h3>
+            
+            </div>
+            <div class="team-member">
+                <a href="bibek.html">
+                    <img src="image/bibek.jpeg" alt="Manager">
+                </a>
+                <h3>Bibek  Rana Magar</h3>
+                
+            </div>
+            <div class="team-member">
+                <a href="kunga.html">
+                    <img src="image/kunga.jpeg" alt="Staff">
+                </a>
+                <h3>Kunga Sherpa</h3>
+                
+            </div>
+            <div class="team-member">
+                <a href="nisha.html">
+                    <img src="image/nisha.jpeg" alt="Staff">
+                </a>
+                <h3>Nisha Thapa Magar</h3>
+        
+            </div>
+        </div>
+
+        <!-- Feedback Form -->
+        <form id="feedback-form">
+            <h2>Send us your feedback</h2>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="response" id="response" style="display: none;"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Smart Mart. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById("feedback-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+            
+            // Simulating server-side processing and response
+            setTimeout(function() {
+                document.getElementById("response").style.display = "block";
+                document.getElementById("response").innerHTML = "<p>Thank you, " + name + ", for your feedback!</p>";
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
